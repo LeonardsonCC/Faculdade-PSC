@@ -60,7 +60,7 @@
       </VBox>
    </center>
    <bottom>
-      <Label fx:id="lblResultado" text="Resultado:" BorderPane.alignment="CENTER">
+      <Label fx:id="lblResultado" text="Resultado:">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
