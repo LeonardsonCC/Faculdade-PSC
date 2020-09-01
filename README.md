@@ -12,3 +12,7 @@
 ## Aula 3 - 31/08/2020
 - Criando projeto para calcular nota média dos alunos;
 - Tela criada com Nome, Notas de 1 a 3 e exibindo a média final, assim como se o aluno está aprovado;
+- [Programa para cálculo da Média](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/MediaAlunosComTela);
+- Novo projeto calculadora criado;
+- Programa calculadora feito, é escrito dois números em diferentes caixas de texto, selecionado a operação desejada e o resultado é exibido em uma caixa de texto não editável;
+- [Programa calculadora simples](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/Calculadora)
