@@ -16,3 +16,9 @@
 - Novo projeto calculadora criado;
 - Programa calculadora feito, é escrito dois números em diferentes caixas de texto, selecionado a operação desejada e o resultado é exibido em uma caixa de texto não editável;
 - [Programa calculadora simples](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/Calculadora)
+
+## Aula 4 - 14/09/2020
+- Projeto para exercícios das aulas de lógica criado, [UcProgramacao](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/UcProgramacao);
+- Exercício de ordenar pares primeiro e depois ímpares feito, se encontra no package "principal" do projeto;
+- Exercício 2 feito para dar aumento nos funcionários de acordo com seu salário;
+- Todos feitos utilizando JavaFx e telas utilizando FXML;
