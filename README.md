@@ -19,6 +19,6 @@
 
 ## Aula 4 - 14/09/2020
 - Projeto para exercícios das aulas de lógica criado, [UcProgramacao](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/UcProgramacao);
-- Exercício de ordenar pares primeiro e depois ímpares feito, se encontra no [package principal](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/UcProgramacao/src/principal) do projeto;
+- Exercício de ordenar pares primeiro e depois ímpares feito, se encontra no [package parimpar](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/UcProgramacao/src/parimpar) do projeto;
 - [Exercício 2](https://github.com/LeonardsonCC/Faculdade-PSC/tree/master/UcProgramacao/src/exercicio2) feito para dar aumento nos funcionários de acordo com seu salário;
 - Todos feitos utilizando JavaFx e telas utilizando FXML;
