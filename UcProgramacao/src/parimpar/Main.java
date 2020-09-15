@@ -1,4 +1,4 @@
-package principal;
+package parimpar;
 	
 import javafx.application.Application;
 import javafx.stage.Stage;

@@ -1,19 +1,17 @@
 package exercicio2;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 public class Exercicio2Controller {
 
-	@FXML
-	private TextField txtQuantidadeFuncionarios;
-	@FXML
-	private TextField txtNomeFuncionario;
-	@FXML
-	private TextField txtSalario;
-	@FXML
-	private TextArea txtResultado;
+	@FXML private TextField txtQuantidadeFuncionarios;
+	@FXML private TextField txtNomeFuncionario;
+	@FXML private TextField txtSalario;
+	@FXML private TextArea txtResultado;
+	@FXML private Button btnAtualizaFuncionarios;
 
 	private String[] vetorNomes;
 	private double[] vetorSalarios;
@@ -40,8 +38,8 @@ public class Exercicio2Controller {
 			this.indiceAtual++;
 			
 			this.resetaCampos();
-
 			this.formataResultado();
+			this.btnAtualizaFuncionarios.setDisable(false);
 		} catch (NullPointerException e) {
 			System.err.println("Erro! Vetor não inicializado.");
 		} catch (IndexOutOfBoundsException e) {
@@ -70,7 +68,7 @@ public class Exercicio2Controller {
 			}
 		}
 		formataResultado();
-
+		this.btnAtualizaFuncionarios.setDisable(true);
 	}
 
 	void formataResultado() {
