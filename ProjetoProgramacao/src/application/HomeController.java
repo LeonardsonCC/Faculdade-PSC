@@ -25,9 +25,14 @@ public class HomeController {
 	@FXML
 	private TabPane tabPane;
 
-	@FXML
-	void abreCadDiscplinas() {
+	@FXML void abreTabDiscplina() {
 		abreTab("Disciplinas", "tabDisciplina.fxml");
+	}
+	@FXML void abreTabAluno() {
+		abreTab("Aluno", "tabAluno.fxml");
+	}
+	@FXML void abreTabProfessor() {
+		abreTab("Professor", "tabProfessor.fxml");
 	}
 
 	private void abreTab(String titulo, String path) {

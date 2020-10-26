@@ -13,10 +13,9 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			BorderPane root = (BorderPane)FXMLLoader.load(getClass().getResource("Home.fxml"));
-			Scene scene = new Scene(root);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			Scene scene = new Scene(root, 600, 600);
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("TESSTE");
+			primaryStage.setTitle("Projeto Programacao");
 			primaryStage.setMaximized(true);
 			primaryStage.show();
 		} catch(Exception e) {
